@@ -9,6 +9,26 @@
   name: Home
   icon: "fas fa-home"
 -
+  name: "About"
+  icon: "fas fa-info"
+  path: tabs
+  url: about
+-
+  name: "Research"
+  icon: "fas fa-flask"
+  path: tabs
+  url: research
+-
+  name: "Community & Outreach"
+  icon: "fas fa-biking"
+  path: tabs
+  url: community-and-outreach
+-
+  name: "Contact"
+  icon: "fas fa-biking"
+  path: tabs
+  url: contact
+-
   name: Categories
   icon: "fas fa-stream"
   path: tabs
@@ -24,7 +44,3 @@
   url: archives
   icon: "fas fa-archive"
 -
-  name: "About"
-  icon: "fas fa-info"
-  path: tabs
-  url: about
