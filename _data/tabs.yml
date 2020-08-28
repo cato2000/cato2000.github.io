@@ -29,6 +29,16 @@
   path: tabs
   url: contact
 -
+  name: "Curriculum Vitae"
+  icon: "fas fa-scroll"
+  path: assets/pdf/cv.pdf
+  url: CV
+-
+  name: "Resume"
+  icon: "fas fa-scroll"
+  path: assets/pdf/resume.pdf
+  url: Resume
+-
   name: Categories
   icon: "fas fa-stream"
   path: tabs
