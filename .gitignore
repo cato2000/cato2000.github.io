@@ -1,16 +1,12 @@
 # Files specific to this repo #
 ###############################
-# python compiled files
 *.pyc
-# jekyll debug
 _site
-# Jeykll Gemfile.lock
 Gemfile.lock
-# yui-compressor
 *.jar
-# bundle cache
 vendor
 .jekyll-cache
+.container
 
 # Compiled source #
 ###################

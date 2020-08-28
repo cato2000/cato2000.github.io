@@ -25,7 +25,7 @@
   url: community-and-outreach
 -
   name: "Contact"
-  icon: "fas fa-biking"
+  icon: "fas fa-envelope"
   path: tabs
   url: contact
 -
@@ -53,4 +53,3 @@
   path: tabs
   url: archives
   icon: "fas fa-archive"
--
