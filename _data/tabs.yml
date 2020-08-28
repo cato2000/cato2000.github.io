@@ -28,13 +28,13 @@
 -
   name: "Curriculum Vitae"
   icon: "fas fa-scroll"
-  path: assets/pdf
-  url: cv.pdf
+  path: tabs
+  url: cv
 -
   name: "Resume"
   icon: "fas fa-scroll"
-  path: assets/pdf
-  url: resume.pdf
+  path: tabs
+  url: resume
 -
   name: Research Blog
   icon: "fas fa-blog"
