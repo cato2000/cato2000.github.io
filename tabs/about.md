@@ -7,24 +7,8 @@ title: About
 # © 2017-2019 Cotes Chung
 # MIT License
 ---
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.responsive {
-  max-width: 100%;
-  height: auto;
-}
-</style>
-</head>
-<body>
 
-<img src="/assets/img/tabs/about-me.jpg" alt="Nature" class="responsive">
-
-</body>
-</html>
-
-<!-- ![About me picture](/assets/img/tabs/about-me.jpg) -->
+![About me picture](/assets/img/tabs/about-me.jpg)
 
 # Education:
 B.S., in Physics Honors, 2016, Purdue University

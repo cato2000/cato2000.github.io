@@ -7,22 +7,8 @@ title: Research
 # © 2017-2019 Cotes Chung
 # MIT License
 ---
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.responsive {
-  max-width: 100%;
-  height: auto;
-}
-</style>
-</head>
-<body>
 
-<img src="/assets/img/tabs/Schneider-et-al-2020-horizontal.png" alt="Nature" class="responsive">
-
-</body>
-</html>
+![Schneider et al 2020](/assets/img/tabs/Schneider-et-al-2020-horizontal.png)
 
 # Ph.D Research
 ## Adding Magnetohydrodynamics (MHD) to Cholla (Spring 2020 - Present)
