@@ -6,9 +6,6 @@
 
 
 -
-  name: Home
-  icon: "fas fa-home"
--
   name: "About"
   icon: "fas fa-info"
   path: tabs
@@ -38,6 +35,9 @@
   icon: "fas fa-scroll"
   path: assets/pdf/resume.pdf
   url: Resume
+-
+  name: Research Blog
+  icon: "fas fa-blog"
 -
   name: Categories
   icon: "fas fa-stream"
