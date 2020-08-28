@@ -35,7 +35,7 @@ compact companion star.
 
 **Links:**  <br>
 [Masters Thesis](/assets/pdf/Thesis-Final-Version-(small-file).pdf)  <br>
-[Poster](/assets/pdf/V1835-Aql-Poster">Poster) (Contains preliminary results only, for full results see the upcoming paper.
+[Poster](/assets/pdf/V1835Aql-Poster.pdf) (Contains preliminary results only, for full results see the upcoming paper.
 Poster was presented at a Ohio Academy of Science conference)
 
 

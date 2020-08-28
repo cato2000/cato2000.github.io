@@ -1,13 +1,11 @@
 ---
-title: Text and Typography  # Title
-author: Cotes Chung  # Author
-date: 2019-08-08 11:33:00 +0800  # Date, time, and timezone
-categories: [Blogging, Demo]  # Catagories to apply
-tags: [typography]  # Tags to apply
-math: true  # Include math
-image: /assets/img/tabs/about-me.jpg # Header Image
-pin: true  # Pin the post?
-toc: false # Include a table of contents
+title: Text and Typography
+author: Cotes Chung
+date: 2019-08-08 11:33:00 +0800
+categories: [Blogging, Demo]
+tags: [typography]
+math: true
+image: /assets/img/tabs/Schneider-et-al-2020-horizontal.png
 ---
 
 This Jekyll template totally compatible with Markdown syntax. Now, let's have a look at the text and typography.
@@ -19,11 +17,11 @@ This Jekyll template totally compatible with Markdown syntax. Now, let's have a 
 
 # H1
 
-## H2
+<h2 data-toc-skip>H2</h2>
 
-### H3
+<h3 data-toc-skip>H3</h3>
 
-#### H4
+<h4>H4</h4>
 
 ---
 
@@ -81,7 +79,7 @@ Click the hook will locate the footnote[^footnote].
 
 ## Image
 
-![Desktop View](/assets/img/tabs/about-me.jpg)
+![Desktop View](/assets/img/tabs/Schneider-et-al-2020-horizontal.png)
 
 
 ## Inline code

@@ -28,12 +28,12 @@
 -
   name: "Curriculum Vitae"
   icon: "fas fa-scroll"
-  path: assets/pdf/
+  path: /assets/pdf
   url: cv.pdf
 -
   name: "Resume"
   icon: "fas fa-scroll"
-  path: assets/pdf/
+  path: /assets/pdf
   url: resume.pdf
 -
   name: Research Blog
