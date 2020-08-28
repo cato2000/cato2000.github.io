@@ -4,7 +4,9 @@
 #  © 2020 Cotes Chung
 #  MIT Licensed
 
-
+-
+  name: Research Blog
+  icon: "fas fa-satellite-dish"
 -
   name: "About"
   icon: "fas fa-info"
@@ -17,7 +19,7 @@
   url: research
 -
   name: "Community & Outreach"
-  icon: "fas fa-biking"
+  icon: "fas fa-users"
   path: tabs
   url: community-and-outreach
 -
@@ -35,9 +37,6 @@
   icon: "fas fa-scroll"
   path: tabs
   url: resume
--
-  name: Research Blog
-  icon: "fas fa-blog"
 -
   name: Categories
   icon: "fas fa-stream"
