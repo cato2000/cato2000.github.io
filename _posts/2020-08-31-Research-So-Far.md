@@ -70,7 +70,7 @@ implementations of them can be found in the `basic-solvers` directory of my
 [hydro-sandbox](https://github.com/bcaddy/hydro-sandbox) repo. They are solved
 using second order in both space and time and use Minmod or MC slope limiters
 
-Writing a full solver for the Euler equations was a much larger endevour. This
+Writing a full solver for the Euler equations was a much larger endeavour. This
 solver is basically made up of two parts: one that computes the slopes, time
 steps, reconstructs interface states, etc and a Riemann solver. My first step
 was writing the Riemann solver, instead of using an approximate solver I
@@ -83,8 +83,8 @@ me to implement the Riemann solver.
 
 Once the Riemann solver was written and tested it was time to write the whole
 simulation code for the Euler equations. I decided to implement this using an
-object oriented paradigm since I need practice with that and this algorith is a
-good candidate for object oriented pragramming (OOP); due to the many funtions
+object oriented paradigm since I need practice with that and this algorithm is a
+good candidate for object oriented programming (OOP); due to the many functions
 that can (and should) be hidden from the main function. I wrote one class for
 the Riemann solver, one for the grid, and one for the simulation itself. Then
 all the main function has to do is call various methods of the simulation class.
@@ -130,7 +130,7 @@ This is the same advection simulations but now with MC limiting. Notice how the 
 ![Advection equation, limited](/assets/img/2020-post-assets/08-august/advection-top-hat-MC-limiting.mp4)
 
 ## Burgers Equation
-In these animations you will see the solution to the Burgers' Equation with sinosoidal initial conditions and different slope limiters. The first is with MC limiting, this can be considered the fiducial result
+In these animations you will see the solution to the Burgers' Equation with sinusoidal initial conditions and different slope limiters. The first is with MC limiting, this can be considered the fiducial result
 ![Burgers equation, MC limiting](/assets/img/2020-post-assets/08-august/Burgers-MC-Limiter.mp4)
 
 Now we create the same plot but with just a forward difference. Note the oscillations near the back of the sign wave
@@ -145,10 +145,10 @@ And finally with a centered difference. Even though a centered difference is tec
 ## Euler's Equations
 Now here are the results for the full Euler Equations solver.
 
-The first animation shows a simply advecting density wave using a piecewise constant method to reconstruct the interface states. Note how quickly the profile goes from a step function to a guassian and then how quickly it dissapates.
+The first animation shows a simply advecting density wave using a piecewise constant method to reconstruct the interface states. Note how quickly the profile goes from a step function to a gaussian and then how quickly it dissipates.
 ![Euler equation, PCM](/assets/img/2020-post-assets/08-august/euler-advection-PCM.mp4)
 
-This is the same initial conditions but now we're using Zingales piecewise linear method with MC limited slopes. Now how much less dissapative the advection is.
+This is the same initial conditions but now we're using Zingales piecewise linear method with MC limited slopes. Now how much less dissipative the advection is.
 ![Euler equation, PLM](/assets/img/2020-post-assets/08-august/euler-advection-PCM.mp4)
 
 Finally the standard test of any Euler solving code, the Sod shock tube. The code reproduces the correct profile with only very small deviations, and this is with only 100 cells. With more cells it's even more accurate
