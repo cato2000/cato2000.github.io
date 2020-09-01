@@ -12,6 +12,11 @@
 @import "_colors/light-typography";
 @import "_colors/dark-typography";
 
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 @mixin set-visible($light-display, $dark-display) {
   [light-mode-invisible] {
     display: $light-display;
