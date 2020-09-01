@@ -124,32 +124,50 @@ found in the `visualization` directory of my
 
 ## Advection Equation
 Here's the result of solving the Advection equation with a step function initial conditions. Note the little "ears" on the profile, this is caused by the unlimited slopes that are being used.
-![Advection equation, no limiting](/assets/img/2020-post-assets/08-august/advection-top-hat-no-limiting.mp4)
+<video muted autoplay controls>
+    <source type="video/mp4" src="/assets/img/2020-post-assets/08-August/advection-top-hat-no-limiting.mp4">
+</video>
 
 This is the same advection simulations but now with MC limiting. Notice how the "ears" are completely gone and the profile much more resembles the initial profile, just advected to the right.
-![Advection equation, limited](/assets/img/2020-post-assets/08-august/advection-top-hat-MC-limiting.mp4)
+<video muted autoplay controls>
+    <source type="video/mp4" src="/assets/img/2020-post-assets/08-August/advection-top-hat-MC-limiting.mp4">
+</video>
 
 ## Burgers Equation
 In these animations you will see the solution to the Burgers' Equation with sinusoidal initial conditions and different slope limiters. The first is with MC limiting, this can be considered the fiducial result
-![Burgers equation, MC limiting](/assets/img/2020-post-assets/08-august/Burgers-MC-Limiter.mp4)
+<video muted autoplay controls>
+    <source type="video/mp4" src="/assets/img/2020-post-assets/08-August/Burgers-MC-Limiter.mp4">
+</video>
 
 Now we create the same plot but with just a forward difference. Note the oscillations near the back of the sign wave
-![Burgers equation, no limiting, forward](/assets/img/2020-post-assets/08-august/Burgers-forward-diff.mp4)
+<video muted autoplay controls>
+    <source type="video/mp4" src="/assets/img/2020-post-assets/08-August/Burgers-forward-diff.mp4">
+</video>
 
 Now we create the same plot but with just a backward difference. Note the oscillations near the front of the sign wave
-![Burgers equation, no limiting, backward](/assets/img/2020-post-assets/08-august/Burgers-backward-diff.mp4)
+<video muted autoplay controls>
+    <source type="video/mp4" src="/assets/img/2020-post-assets/08-August/Burgers-backward-diff.mp4">
+</video>
 
 And finally with a centered difference. Even though a centered difference is technically second order accurate you can see how important limiting is to getting a physically realizable result
-![Burgers equation, no limiting, centered](/assets/img/2020-post-assets/08-august/Burgers-centered-diff.mp4)
+<video muted autoplay controls>
+    <source type="video/mp4" src="/assets/img/2020-post-assets/08-August/Burgers-centered-diff.mp4">
+</video>
 
 ## Euler's Equations
 Now here are the results for the full Euler Equations solver.
 
 The first animation shows a simply advecting density wave using a piecewise constant method to reconstruct the interface states. Note how quickly the profile goes from a step function to a gaussian and then how quickly it dissipates.
-![Euler equation, PCM](/assets/img/2020-post-assets/08-august/euler-advection-PCM.mp4)
+<video muted autoplay controls>
+    <source type="video/mp4" src="/assets/img/2020-post-assets/08-August/euler-advection-PCM.mp4">
+</video>
 
 This is the same initial conditions but now we're using Zingales piecewise linear method with MC limited slopes. Now how much less dissipative the advection is.
-![Euler equation, PLM](/assets/img/2020-post-assets/08-august/euler-advection-PCM.mp4)
+<video muted autoplay controls>
+    <source type="video/mp4" src="/assets/img/2020-post-assets/08-August/euler-advection-PCM.mp4">
+</video>
 
 Finally the standard test of any Euler solving code, the Sod shock tube. The code reproduces the correct profile with only very small deviations, and this is with only 100 cells. With more cells it's even more accurate
-![Euler equation, Sod](/assets/img/2020-post-assets/08-august/Sod-PLM-MC.mp4)
+<video muted autoplay controls>
+    <source type="video/mp4" src="/assets/img/2020-post-assets/08-August/Sod-PLM-MC.mp4">
+</video>
