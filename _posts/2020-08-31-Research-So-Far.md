@@ -7,7 +7,7 @@ tags:       [Riemann, hydro, Zingale, Toro, computational methods]  # Tags, any 
 pin:        false                                                   # Should this post be pinned?
 toc:        true                                                    # Table of Contents?
 math:       true                                                    # Does this post contain math?
-image:      /assets/img/2020-post-assets/08-august/sod-shock.png    # Header image path
+image:      /assets/img/2020-post-assets/08-August/sod-shock.png    # Header image path
 ---
 
 # Overview
