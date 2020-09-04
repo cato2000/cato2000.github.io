@@ -9,6 +9,7 @@ title: Research
 ---
 
 ![Schneider et al 2020](/assets/img/tabs/Schneider-et-al-2020-horizontal.png)
+*Image from Schneider et. al 2020*
 
 # Ph.D Research
 ## Adding Magnetohydrodynamics (MHD) to Cholla (Spring 2020 - Present)
