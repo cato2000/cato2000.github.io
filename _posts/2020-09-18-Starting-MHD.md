@@ -30,7 +30,7 @@ $$ \frac{\partial E}{\partial t} + \nabla \cdot ( (E + P^*) \vec{v} + \vec{B}(\v
 
 $$ \frac{\partial \vec{B}}{\partial t} - \nabla \times (\vec{v} \times \vec{B}) = 0$$
 
-Where \\( P^* = P + \frac{1}{2}(\vec{B} \cdot \vec{B}) \\), \\( E \\) is totale energy density. Note that \\( \mu = 1 \\) in our units. If we use a gamma law for the pressure then
+Where \\( P^* = P + \frac{1}{2}(\vec{B} \cdot \vec{B}) \\), \\( E \\) is total energy density. Note that \\( \mu_0 = 1 \\) in our units. If we use a gamma law for the pressure then
 
 $$ P = \epsilon(\gamma - 1) $$
 
