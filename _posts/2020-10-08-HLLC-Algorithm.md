@@ -152,4 +152,4 @@ $$
     p^* = p_L + \rho_L \left( v_L - S_L \right) \left( v_L - S_M \right)
 $$
 
-Note that since \\( p_L^* = p_R^* \\) we can just compute the pressure in the star region using one of the interface states. The dependence on the other interface state comes from the \\( S_L \\) and \\( S_M \\) terms. Now you're done computing the fluxes just return them and you're done!
+Note that since \\( p_L^* = p_R^* \\) we can just compute the pressure in the star region using one of the interface states. The dependence on the other interface state comes from the \\( S_L \\) and \\( S_M \\) terms. Now you've computed the fluxes just return them and you're done!
