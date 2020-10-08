@@ -3,7 +3,7 @@ title:      HLLC Algorithm             # Title
 author:     Robert Caddy               # Author Name
 date:       2020-10-08 17:00:00 -0400  # Date
 categories: [Hydrodynamics, Riemann Solvers]     # Catagories, no more than 2
-tags:       [HLLC, Hydro, computational methods, numerical methods, Riemann Solver]  # Tags, any number
+tags:       [HLLC, Hydro, Computational Methods, Numerical Methods, Riemann Solver]  # Tags, any number
 pin:        false                      # Should this post be pinned?
 toc:        true                       # Table of Contents?
 math:       true                      # Does this post contain math?

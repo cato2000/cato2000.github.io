@@ -3,7 +3,7 @@ title:      Starting Magnetohydrodynamics (MHD)           # Title
 author:     Robert Caddy                                  # Author Name
 date:       2020-09-18 13:17:27 -0400                     # Date
 categories: [MHD, Course Work]                            # Catagories, no more than 2
-tags:       [MHD, numerical methods, General Relativity]  # Tags, any number
+tags:       [MHD, Numerical Methods, General Relativity]  # Tags, any number
 pin:        false                                         # Should this post be pinned?
 toc:        true                                          # Table of Contents?
 math:       true                                          # Does this post contain math?

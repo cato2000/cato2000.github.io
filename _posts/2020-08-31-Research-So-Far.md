@@ -3,7 +3,7 @@ title:      Research So Far                                         # Title
 author:     Robert Caddy                                            # Author Name
 date:       2020-08-31 11:12:26 -0400                               # Date
 categories: [Hydrodynamics, Computational Methods]                  # Catagories, no more than 2
-tags:       [Riemann, hydro, Zingale, Toro, computational methods]  # Tags, any number
+tags:       [Riemann Solver, Hydro, Zingale, Toro, Computational Methods]  # Tags, any number
 pin:        false                                                   # Should this post be pinned?
 toc:        true                                                    # Table of Contents?
 math:       true                                                    # Does this post contain math?
