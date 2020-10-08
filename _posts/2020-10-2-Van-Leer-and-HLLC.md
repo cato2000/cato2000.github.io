@@ -2,7 +2,7 @@
 title:      Van Leer and HLLC      # Title
 author:     Robert Caddy               # Author Name
 date:       2020-10-02 16:00:00 -0400  # Date
-categories: [hydrodynamics, course work]     # Catagories, no more than 2
+categories: [Hydrodynamics, Course Work]     # Catagories, no more than 2
 tags:       [Van Leer, CTU, General Relativity, Riemann Solver, MHD]                     # Tags, any number
 pin:        false                      # Should this post be pinned?
 toc:        true                       # Table of Contents?
