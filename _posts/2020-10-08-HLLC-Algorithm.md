@@ -127,10 +127,16 @@ $$
 Where
 
 $$
-    \vec{U}_k = \begin{bmatrix}
+    \vec{U}_k^* = \begin{bmatrix}
             \rho_k^* \\
             \rho_k^* S_M \\
             E_k^*
+         \end{bmatrix},
+    \; \; \; \text{and} \; \;
+    \vec{U}_k = \begin{bmatrix}
+            \rho_k \\
+            \rho_k S_k \\
+            E_k
          \end{bmatrix}
 $$
 
