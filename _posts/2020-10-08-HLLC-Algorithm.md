@@ -51,7 +51,7 @@ $$
 
 $$
     S_M = \frac
-    {\rho_R v_R \left( S_R - v_R\right) - \rho_L v_L \left( S_L - v_L\right) + p_L + p_R}
+    {\rho_R v_R \left( S_R - v_R\right) - \rho_L v_L \left( S_L - v_L\right) + p_L - p_R}
     {\rho_R \left( S_R - v_R\right) - \rho_L \left( S_L - v_L\right)}
 $$
 
@@ -89,7 +89,7 @@ $$
 
     \vec{F}_{HLLC} =
         \begin{cases}
-            \vec{F}_L  & \text{if}\ S_L < 0
+            \vec{F}_L  & \text{if}\ 0 < S_L
             \\
             \\
             \vec{F}_L^*  & \text{if}\ S_L \leq 0 < S_M
@@ -98,7 +98,7 @@ $$
             \vec{F}_R^*  & \text{if}\ S_M \leq 0 \leq S_R
             \\
             \\
-            \vec{F}_R  & \text{if}\ 0 < S_R
+            \vec{F}_R  & \text{if}\ S_R < 0
         \end{cases}
 
 $$
@@ -150,7 +150,7 @@ $$
 
 $$
     E_k^* = \frac
-    {\left( S_k - v_K \right)E_k - p_k v_k + p^* S_M}
+    {E_k \left( S_k - v_K \right) - p_k v_k + p^* S_M}
     {S_k - S_M}
 $$
 
