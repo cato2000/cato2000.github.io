@@ -129,7 +129,7 @@ Where
 $$
     \vec{U}_k^* = \begin{bmatrix}
             \rho_k^* \\
-            \rho_k^* S_M \\
+            \left( \rho_k v_k \right) ^*\\
             E_k^*
          \end{bmatrix},
     \; \; \; \text{and} \; \;
@@ -149,13 +149,18 @@ $$
 $$
 
 $$
-    E_k^* = \frac
-    {E_k \left( S_k - v_K \right) - p_k v_k + p^* S_M}
-    {S_k - S_M}
+    p^* = p_L + \rho_L \left( v_L - S_L \right) \left( v_L - S_M \right)
 $$
 
 $$
-    p^* = p_L + \rho_L \left( v_L - S_L \right) \left( v_L - S_M \right)
+    \left( \rho_k v_k \right) ^* = \frac{\rho_k v_k \left(S_k - v_k\right) + p^* - p_k}
+                                        {S_k - S_M}
+$$
+
+$$
+    E_k^* = \frac
+    {E_k \left( S_k - v_K \right) - p_k v_k + p^* S_M}
+    {S_k - S_M}
 $$
 
 Note that since \\( p_L^* = p_R^* \\) we can just compute the pressure in the star region using one of the interface states. The dependence on the other interface state comes from the \\( S_L \\) and \\( S_M \\) terms. Now you've computed the fluxes just return them and you're done!
