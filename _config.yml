@@ -80,6 +80,9 @@ disqus:
 #
 theme_mode: dual
 
+# Include future dated posts
+future: true
+
 # boolean type, global switch for ToC in posts.
 toc: true
 
