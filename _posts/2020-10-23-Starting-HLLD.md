@@ -3,7 +3,7 @@ title:      Starting On HLLD Riemann Solver  # Title
 author:     Robert Caddy               # Author Name
 date:       2020-10-23 17:00:00 -0400  # Date
 categories: [MHD, Course Work]     # Catagories, no more than 2
-tags:       [HLLD, Riemann Solver, General Relativity]                     # Tags, any number
+tags:       [HLLD, Riemann Solver, General Relativity, Intel, Workshop, Dev tools]                     # Tags, any number
 pin:        false                      # Should this post be pinned?
 toc:        true                       # Table of Contents?
 math:       false                      # Does this post contain math?
@@ -12,6 +12,11 @@ math:       false                      # Does this post contain math?
 
 # General Relativity (GR)
 We had an exam Monday and started into GR on Wednesday. Pretty uneventful.
+
+# Intel Workshop
+On Tuesday I went to the Intel Dev Tools workshop hosted at the Pitt CRC. It had
+an excellent discussion of Intel compilers, Data Parallel C++, and a few other
+topics
 
 # HLLD Riemann Solver
 I'm starting on writing an HLLD Riemann Solver this week. I've been basing my
