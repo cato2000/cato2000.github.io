@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Run jekyll site at http://127.0.0.1:4000
+# Run jekyll site at https://127.0.0.1:4000
 #
 # Requirement:
-#   Option '-r, --realtime' needs fswatch › http://emcrisostomo.github.io/fswatch/
+#   Option '-r, --realtime' needs fswatch › https://emcrisostomo.github.io/fswatch/
 #
 # v2.0
 # https://github.com/cotes2020/jekyll-theme-chirpy
@@ -127,7 +127,7 @@ do
       shift
       ;;
     -r|--realtime)
-      _check_command fswatch "http://emcrisostomo.github.io/fswatch/"
+      _check_command fswatch "https://emcrisostomo.github.io/fswatch/"
       realtime=true
       shift
       ;;

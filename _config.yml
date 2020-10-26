@@ -50,7 +50,7 @@ google_site_verification:  # change to your verification string
 # change below value to '/projectname'.
 baseurl: ''
 
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+# Change to your timezone › https://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: America/New_York
 
 google_analytics:
