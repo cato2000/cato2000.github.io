@@ -56,7 +56,7 @@ Note: since magnetic fields are inherently 3D due to the use of the outproduct e
 ## Glossary of New Equations
 MHD comes along with many modifications to the various basic equations that we're used to; new terms in the pressure and energy equations, new wave speeds, new eigenvalues etc. I summarize the ones I plan to use here.
 
-### Conservative Variable Vector
+### Conservative Variable Vector and Flux
 
 $$
     \vec{U}_k = \begin{bmatrix}
@@ -64,9 +64,23 @@ $$
             \rho_k v_{x,k} \\
             \rho_k v_{y,k} \\
             \rho_k v_{z,k} \\
+            B_x \\
             B_y \\
             B_z \\
             E
+         \end{bmatrix}
+
+    \text{,}\; \;
+
+    \vec{F}_k = \begin{bmatrix}
+            \rho_k v_{x,k} \\
+            \rho_k v_{x,k}^2 + p_{T,k} - B_{x,k}^2 \\
+            \rho v_{x,k} v_{y,k} - B_{x,k} B_{y,k} \\
+            \rho v_{x,k} v_{z,k} - B_{x,k} B_{z,k} \\
+            0 \\
+            B_{y,k} v_{x,k} - B_{x,k} v_{y,k} \\
+            B_{z,k} v_{x,k} - B_{x,k} v_{z,k} \\
+            v_{x,k} \left( E_k + p_{T,k} \right) - B_{x,k} \left( \vec{v_k} \cdot \vec{B_k} \right)
          \end{bmatrix}
 $$
 
@@ -235,6 +249,7 @@ $$
             \rho_k v_{x,k}^2 + p_{T,k} - B_{x,k}^2 \\
             \rho v_{x,k} v_{y,k} - B_{x,k} B_{y,k} \\
             \rho v_{x,k} v_{z,k} - B_{x,k} B_{z,k} \\
+            0 \\
             B_{y,k} v_{x,k} - B_{x,k} v_{y,k} \\
             B_{z,k} v_{x,k} - B_{x,k} v_{z,k} \\
             v_{x,k} \left( E_k + p_{T,k} \right) - B_{x,k} \left( \vec{v_k} \cdot \vec{B_k} \right)
