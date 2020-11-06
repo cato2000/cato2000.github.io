@@ -16,7 +16,7 @@ Discussed the Alcubierre metric/warp drive and more digging into curved
 spacetime.
 
 # HLLD Solver
-Building on the work from [last week]({% post_url 2020-10-30-MHD-Implementation-Prep.md %}) I finished up the prep work for the HLLD solver. The code is now ready for the HLLD solver implementation so I've been working on that. I haven't finished so I don't have any pretty plots yet. Maybe next week, assuming the USA still exists.
+Building on the work from [last week]({% post_url 2020-10-30-MHD-Implementation-Prep %}) I finished up the prep work for the HLLD solver. The code is now ready for the HLLD solver implementation so I've been working on that. I haven't finished so I don't have any pretty plots yet. Maybe next week, assuming the USA still exists.
 
 
 ## Useful links
