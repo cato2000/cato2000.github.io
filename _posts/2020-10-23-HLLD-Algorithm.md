@@ -354,7 +354,7 @@ $$
                 {
                     v_L^* \sqrt{\rho_L^*}
                   + v_R^* \sqrt{\rho_R^*}
-                  + \left( B_{j,R} - B_{j,L} \right) \text{sign}\left( B_x \right)
+                  + \left( B_{j,R}^* - B_{j,L}^* \right) \text{sign}\left( B_x \right)
                 }
                 {\sqrt{\rho_L^*} + \sqrt{\rho_R^*}}
 $$
@@ -364,7 +364,7 @@ $$
                 {
                     B_{j,R}^* \sqrt{\rho_L^*}
                   + B_{j,L}^* \sqrt{\rho_R^*}
-                  + \left( v_{j,R} - v_{j,L} \right) \sqrt{\rho_L^* \rho_R^*} \text{sign}\left( B_x \right)
+                  + \left( v_{j,R}^* - v_{j,L}^* \right) \sqrt{\rho_L^* \rho_R^*} \text{sign}\left( B_x \right)
                 }
                 {\sqrt{\rho_L^*} + \sqrt{\rho_R^*}}
 $$
