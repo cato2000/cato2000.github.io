@@ -296,7 +296,7 @@ $$
 
 We can find the \\( y \\) and \\( z \\) components of \\( \vec{v} \\) and
 \\(\vec{B} \\) with the follwing equations. Note these equations can give a term
-that is \\( \frac{0}{0} \\) if \\( S_M = v_{x,l}\\), \\(S_k = v_{x,k} \pm
+that is \\( \frac{0}{0} \\) if \\( S_M = v_{x,k}\\), \\(S_k = v_{x,k} \pm
 c_{f,k}\\), \\(B_{y,k} = B_{z,k} = 0\\), and \\(B_x^2 \ge \gamma p_k \\). If
 this is the case then there is no shock across \\\( S_k \\), so set \\(
 \vec{v}\_k^* = \vec{v}\_k\\), \\(B\_{y,k} = B\_{z,k} = 0\\), \\(\rho\_k^\* =
