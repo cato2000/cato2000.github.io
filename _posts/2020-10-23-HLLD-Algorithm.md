@@ -278,7 +278,7 @@ $$
       + \rho_L \rho_R
         \left( S_R - v_{x,R} \right)
         \left( S_L - v_{x,L} \right)
-        \left( v_{x,L} - v_{x,L} \right)
+        \left( v_{x,R} - v_{x,L} \right)
     }
     {\rho_R \left( S_R - v_{x,R} \right) - \rho_L \left( S_L - v_{x,L} \right)}
 $$
