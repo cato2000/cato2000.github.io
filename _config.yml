@@ -8,39 +8,36 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Robert 'Bob' Caddy              # the main title
+title: cato2000              # the main title
 
-tagline: Ph.D Candidate, Third Year
-         University of Pittsburgh    # it will display as the sub-title
+tagline: 살며 사랑하며    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  My personal website and research blog. I use this to provide updates on my
-  research with astrophysics computational hydrodynamics and
-  magnetohydrodynamics (MHD).
+  My personal website and research blog. 
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'https://robertcaddy.com'
+url: 'https://cato2000.github.io'
 
-author: Robert 'Bob' Caddy              # change to your full name
+author: cato2000             # change to your full name
 
 avatar: /assets/img/icons/avatar.jpg    # support internet resources
 
 github:
-  username: bcaddy                      # change to your github username
+  username: cato2000                      # change to your github username
 
 # twitter:
 #   username:                             # change to your twitter username
 
 social:
-  name: Robert Caddy                    # it will shows as the copyright owner in Footer
-  email: r.caddy@pitt.edu               # change to your email address
+  name: cato2000                    # it will shows as the copyright owner in Footer
+  email: cato2000@gmail.com               # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/bcaddy       # change to your github homepage
+    - https://github.com/cato2000       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/robertcaddy1/
+    # - https://www.linkedin.com/in/robertcaddy1/
 
 google_site_verification:  # change to your verification string
 
@@ -51,7 +48,7 @@ google_site_verification:  # change to your verification string
 baseurl: ''
 
 # Change to your timezone › https://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: America/New_York
+timezone: Asia/Seoul
 
 google_analytics:
   id: ''          # Fill with your Google Analytics ID
